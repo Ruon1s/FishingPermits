@@ -11,6 +11,7 @@ const Profile: React.FC = () => {
             alignItems: 'center',
         },
     });
+
     return (
         <SafeAreaProvider>
             <TopBar title='Profiili'/>

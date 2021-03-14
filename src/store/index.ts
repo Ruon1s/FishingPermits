@@ -1,10 +1,10 @@
 import {combineReducers, createStore, applyMiddleware} from "redux";
-import hiddenReducer from './overlay/reducers'
 import thunk from "redux-thunk";
+import weatherReducer from './temporaryWeatherforTest/reducers'
 
 
 const rootReducer = combineReducers({
-hidden: hiddenReducer,
+    weather: weatherReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

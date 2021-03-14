@@ -11,6 +11,9 @@ const styles = StyleSheet.create({
     },
 });
 
+const doStuff = () => {
+    console.log('pressed')
+}
 
 const Permits: React.FC = () => {
     return(
